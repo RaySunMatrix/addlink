@@ -1,5 +1,8 @@
 [Anjuta]
-Geometry=1024x684+170+87
+Geometry=1024x684+170+32
+
+[File Loader]
+Files=../../po/POTFILES.in#1%%%../../src/Makefile.am#28%%%../../Makefile.am#31%%%../../autogen.sh#158%%%../../international.h#1%%%../../international.cc#990
 
 [Document Manager]
 bookmarks=<?xml version="1.0" encoding="UTF-8"?>\n<bookmarks/>\n
@@ -9,10 +12,7 @@ Run in terminal=2
 Working directories=../../.
 
 [Project Manager]
-Expand=addlink%%%addlink//po%%%addlink//src
-
-[Debugger]
-Stop at beginning=2
+Expand=addlink
 
 [Build]
 Configuration list=1:Default:%%%1:Debug:Debug%%%1:Profiling:Profiling%%%1:Optimized:Optimized
@@ -21,3 +21,7 @@ BuildArgs/Default=--enable-maintainer-mode
 BuildArgs/Debug=--enable-maintainer-mode 'CFLAGS=-g -O0' 'CXXFLAGS=-g -O0' 'JFLAGS=-g -O0' 'FFLAGS=-g -O0'
 BuildArgs/Profiling=--enable-maintainer-mode 'CFLAGS=-g -pg' 'CXXFLAGS=-g -pg' 'JFLAGS=-g -pg' 'FFLAGS=-g -pg'
 BuildArgs/Optimized=--enable-maintainer-mode 'CFLAGS=-O2' 'CXXFLAGS=-O2' 'JFLAGS=-O2' 'FFLAGS=-O2'
+
+[Debugger]
+Breakpoint=1:../../international.cc:72:0:
+Stop at beginning=2

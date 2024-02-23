@@ -1,0 +1,3 @@
+/home/admin/ProjectJunt/addlink/cmake-build-debug/CMakeFiles/addlink.dir
+/home/admin/ProjectJunt/addlink/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/admin/ProjectJunt/addlink/cmake-build-debug/CMakeFiles/rebuild_cache.dir
